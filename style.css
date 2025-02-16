@@ -1,0 +1,142 @@
+h1,
+h2,
+h4,
+p,
+li {
+  font-family: sans-serif;
+}
+
+.container {
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h3 {
+  font-size: 30px;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+li {
+  font-size: 20px;
+}
+
+p {
+  font-size: 22px;
+  line-height: 1;
+}
+
+/* footer p {
+  font-size: 16px;
+} */
+
+/* article header p {
+  font-style: italic;
+} */
+
+#author {
+  font-style: italic;
+  font-size: 18px;
+}
+
+#copyright {
+  font-size: 16px;
+}
+
+.related-author {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.related {
+  list-style: none;
+}
+
+.main-header {
+  border-top: 5px solid black;
+  border-bottom: 5px solid black;
+  background-color: rgb(235, 144, 33);
+}
+
+aside {
+  background-color: rgb(235, 144, 33);
+  border-top: 5px solid black;
+  border-bottom: 5px solid black;
+}
+
+/* body {
+  background-color: #97d8e9;
+} */
+
+/* .first-li {
+  font-weight: bold;
+} */
+
+/* li:nth-child(odd)  
+li:nth-child(2) {
+  color: red;
+}
+*/
+/*Misconception*/
+/* article p:{
+  color: red
+} */
+
+/*Styling links*/
+
+a:link {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+a:active {
+  background-color: rgb(248, 251, 251);
+  font-style: italic;
+}
+
+/* Resolving conflicts */
+/* #copyright {
+  color: red;
+}
+
+.copyright {
+  color: blue;
+}
+
+.text {
+  color: yellow;
+}
+
+footer p {
+  color: green !important;
+}  */
+
+nav a:link {
+  margin: 20px;
+  display: -moz-grid-line;
+  padding: 15px;
+}
+.custom-file-upload {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: rgb(235, 144, 33);
+  color: black;
+  cursor: pointer;
+  border-radius: 5px;
+  font-weight: bold;
+}
+input[type="#"] {
+  display: none;
+}
+
+#space {
+  line-height: 30;
+}
